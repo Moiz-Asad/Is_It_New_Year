@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: cursive,arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(BG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;  
+}
+h1
+{
+  font-size: 3rem;
+  margin-top: -10rem;
+}
+.TimeContainer
+{
+  display: flex;
+}
+.BigTxt
+{
+  font-size: 30px;
+  line-height: 1;
+  margin: 2rem 2em;
+}
+.container
+{
+  text-align: center;
+}
+.container span
+{
+  font-size: 1.5rem;
+}
